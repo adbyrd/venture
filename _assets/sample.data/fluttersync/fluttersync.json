@@ -1,0 +1,27 @@
+[
+    {
+        "core": {
+            "companyName": "FlutterSync, LLC.",
+            "companyPitch": "Live butterfly releases are unpredictable, ethically questionable, and often fail to deliver the desired visual effect. Flutter Sync replaces them with precision-controlled mechanical butterflies that guarantee a flawless, cinematic experience every time.",
+            "companyRevenue": "One-time service fee per event (tiered luxury pricing: $1,500–$5,000+). Optional upsells: custom choreography, branding, video capture packages",
+            "companyAdvantage": "A hybrid of drone micro-tech + theatrical choreography + luxury event design. Combined with pre-programmed flight patterns and operator control, Flutter Sync guarantees “perfect moments”—something nature can’t deliver.",
+            "companyInventory": "Full-time job (stable income) ~10–15 hours/week nights & weekends Family support structure (married, 2 kids) Laptop + internet Estimated startup budget: $3k–$8k Early-stage prototyping capability (consumer drone/toy tech adaptation)"
+        },
+        "market": {
+            "companyCategory": "...",
+            "companyAlternatives": "...",
+            "companyPrice": "...",
+            "companyFriction": "..."
+        },
+        "tactical": {
+            "saleChannel": "...",
+            "growthStrategy": "...",
+            "geography": "..."
+        },
+        "variables": {
+            "killCriteria": "...", 
+            "biggestFear": "...", 
+            "bottleNeck": "..."
+        }
+    }
+]

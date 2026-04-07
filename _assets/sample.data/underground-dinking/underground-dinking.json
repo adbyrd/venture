@@ -1,0 +1,30 @@
+[
+    {
+        "core": {
+            "companyName": "...",
+            "companyPitch": "...",
+            "companyRevenue": "...",
+            "companyAdvantage": "...",
+            "companyInventory": "...",
+            "killCriteria": "...",
+            "biggestFear": "...",
+            "bottleNeck": "..."
+        },
+        "market": {
+            "companyCategory": "...",
+            "companyAlternatives": "...",
+            "companyPrice": "...",
+            "companyFriction": "..."
+        },
+        "tactical": {
+            "saleChannel": "...",
+            "growthStrategy": "...",
+            "geography": "..."
+        },
+        "variables": {
+            "killCriteria": "...", 
+            "biggestFear": "...", 
+            "bottleNeck": "..."
+        }
+    }
+]
