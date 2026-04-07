@@ -1,27 +1,31 @@
 [
     {
-        "core": {
+        "company": {
             "companyName": "FlutterSync, LLC.",
-            "companyPitch": "Live butterfly releases are unpredictable, ethically questionable, and often fail to deliver the desired visual effect. Flutter Sync replaces them with precision-controlled mechanical butterflies that guarantee a flawless, cinematic experience every time.",
-            "companyRevenue": "One-time service fee per event (tiered luxury pricing: $1,500–$5,000+). Optional upsells: custom choreography, branding, video capture packages",
-            "companyAdvantage": "A hybrid of drone micro-tech + theatrical choreography + luxury event design. Combined with pre-programmed flight patterns and operator control, Flutter Sync guarantees “perfect moments”—something nature can’t deliver.",
-            "companyInventory": "Full-time job (stable income) ~10–15 hours/week nights & weekends Family support structure (married, 2 kids) Laptop + internet Estimated startup budget: $3k–$8k Early-stage prototyping capability (consumer drone/toy tech adaptation)"
+            "companyNiche": "Remote-Controlled Wedding Butterflies",
+            "companyDetails": "Operating delicate, remote-controlled mechanical butterflies for high-end weddings.",
+            "companyZipCode": "89109"
+        },          
+        "core": {
+            "companyPitch": "Luxury weddings lack truly unforgettable “wow” moments. We deliver precision-controlled butterfly releases that create magical, photo-ready experiences without the unpredictability of live animals.",
+            "companyRevenue": "One-time premium event fee ($2k–$10k per wedding) + upsells (custom choreography, lighting sync).",
+            "companyAdvantage": "Proprietary lightweight RC butterfly tech + synchronized flight choreography system + partnerships with high-end wedding planners.",
+            "companyInventory": "$5–10k prototype budget, engineering partner, 10–15 hrs/week, demo unit, pilot wedding connections."
         },
         "market": {
-            "companyCategory": "...",
-            "companyAlternatives": "...",
-            "companyPrice": "...",
-            "companyFriction": "..."
+            "companyCategory": "B2C (via wedding planners = indirect B2B channel)",
+            "companyAlternatives": "Live butterfly releases, confetti cannons, drones, or LED effects—none combine elegance + control + symbolism.",
+            "companyPrice": "Premium luxury. Targeting $50k–$250k weddings where uniqueness > cost.",
+            "companyFriction": "Skepticism (will it look fake?), reliability concerns, and planner trust barriers."
         },
         "tactical": {
-            "saleChannel": "...",
-            "growthStrategy": "...",
-            "geography": "..."
+            "saleChannel": "High-end wedding planners + Instagram/TikTok visual demos.",
+            "growthStrategy": "Slow luxury brand → expand into global destination weddings."
         },
         "variables": {
-            "killCriteria": "...", 
-            "biggestFear": "...", 
-            "bottleNeck": "..."
+            "killCriteria": "If reliability drops below 95% or planners don’t adopt after 10+ demos.", 
+            "biggestFear": "Tech failure during live events damaging brand reputation.", 
+            "bottleNeck": "Engineering reliability + manufacturing scale."
         }
     }
 ]
