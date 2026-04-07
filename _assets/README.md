@@ -1,9 +1,10 @@
 # Assets  
 
+
+## MVP Project Structure  
+
 ```bash
-/root
-├── .wix/                       # Wix system files (auto-generated)
-├── src/                        # Main application source
+├── app/                        # Main application source
 │   ├── backend/                # Server-side logic (Velo)
 │   │   ├── api/                # Exposed HTTP endpoints
 │   │   │   └── webhooks.jsw    # Handles callbacks from n8n or payment providers
@@ -21,10 +22,4 @@
 │       ├── Home.js             # The Form / Payload capture
 │       ├── Checkout.js         # The E-commerce flow trigger
 │       └── Success.js          # Post-payment confirmation UI
-├── docs/                       # API documentation & PRD
-├── .github/                    # CI/CD workflows
-│   └── workflows/
-│       └── deploy.yml          # Automated testing/deployment triggers
-├── package.json                # NPM dependencies
-└── wix.config.json             # Wix project configuration
 ```
