@@ -8,7 +8,7 @@ import { Permissions, webMethod } from 'wix-web-module'; // Required for .web.js
 
 export const sendPayloadToWorkflow = webMethod(Permissions.Anyone, async (payload) => {
     // Standards: Never hard-code URLs; use Secret Manager [cite: 13, 98]
-    const webhookUrl = await getSecret("N8N_VENTURE_WEBHOOK"); 
+    const webhookUrl = await getSecret("VENTURE_TEST"); 
 
     try {
         // Standards: Include logging with module prefix [cite: 29, 33]
