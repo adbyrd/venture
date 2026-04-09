@@ -1,0 +1,200 @@
+[
+  {
+    "competitive_moat": {
+      "factors": [
+        {
+          "factor": "Proprietary Tech",
+          "note": "Patented acoustic filtering algorithm.",
+          "status": "STRONG"
+        },
+        {
+          "factor": "Network Effects",
+          "note": "Limited at early stage; improves with cross-factory data.",
+          "status": "WEAK"
+        },
+        {
+          "factor": "Switching Costs",
+          "note": "Deep integration into maintenance workflows.",
+          "status": "STRONG"
+        },
+        {
+          "factor": "Data Advantage",
+          "note": "Largest labeled dataset of machine failure sounds.",
+          "status": "STRONG"
+        }
+      ],
+      "landscape": {
+        "direct_competitors": "Augury ($100M+ Revenue), Fiix (Rockwell Automation).",
+        "founders_edge": "The team holds 3 patents in acoustic signal processing and has deep trust in the local manufacturing community.",
+        "indirect_competitors": "Vibration analysis consultants, manual inspection logs.",
+        "substitute_threat": "Built-in self-diagnostics from OEMs (e.g., Siemens/GE)."
+      },
+      "moat_recommendation": "Secure exclusive data-sharing agreements with the first 10 pilot customers to train the model on diverse machine types before competitors catch up."
+    },
+    "execution_blueprint": {
+      "growth_lever": {
+        "first_10_customers": "Direct outreach to regional manufacturing association members.",
+        "one_bet": "Focus exclusively on mid-sized food processing plants—they have the highest urgency and the lowest barrier to entry.",
+        "primary": "Channel partnerships with industrial insurance providers."
+      },
+      "sprint_90_day": [
+        {
+          "milestone": "Sign 2 additional Paid Pilot Agreements.",
+          "owner": "CEO",
+          "phase": "Validate",
+          "time": "Days 1-30"
+        },
+        {
+          "milestone": "V2 Sensor Prototype shipped and installed.",
+          "owner": "CTO",
+          "phase": "Build",
+          "time": "Days 31-60"
+        },
+        {
+          "milestone": "Achieve $15k MRR and initiate seed round.",
+          "owner": "CEO",
+          "phase": "Scale",
+          "time": "Days 61-90"
+        }
+      ],
+      "tech_stack": [
+        {
+          "cost": "$25/mo",
+          "function": "Landing Page",
+          "time": "2 Days",
+          "tool": "Framer"
+        },
+        {
+          "cost": "$20/mo",
+          "function": "Automation",
+          "time": "3 Days",
+          "tool": "n8n"
+        },
+        {
+          "cost": "$20/mo",
+          "function": "CRM",
+          "time": "1 Day",
+          "tool": "Airtable"
+        }
+      ]
+    },
+    "final_sign_off": {
+      "confidence": "High",
+      "score": 8.2,
+      "verdict": "GO",
+      "version": "v1.0"
+    },
+    "market_intelligence": {
+      "arbitrage_opportunity": "Using off-the-shelf acoustic sensors paired with custom LLMs allows EcoStream to undercut legacy sensor companies by 60% while maintaining 80% gross margins.",
+      "cagr": "14.2%",
+      "contrarian_signal": "While the market focuses on visual inspection, acoustic data is actually a more accurate leading indicator for internal bearing failure.",
+      "market_risks": "Standardization of industrial communication protocols could allow larger ERP players to bundle this feature natively.",
+      "maturity": "Growing",
+      "sam": "$2.1 Billion",
+      "som": "$45 Million",
+      "tam": "$12.5 Billion — IDC 2025 Report",
+      "trend_drivers": "AI edge computing, skilled labor shortages, and rising energy costs."
+    },
+    "report_metadata": {
+      "analyst": "Strategic Venture Architect™",
+      "company_name": "EcoStream AI",
+      "location": "Austin, TX 78701",
+      "market_segment": "Manufacturing & heavy Industry",
+      "niche_sector": "Industrial IoT & Predictive Maintenance",
+      "report_date": "04/08/2026",
+      "target_market": "B2B"
+    },
+    "revenue_engine": {
+      "model": "Subscription (SaaS)",
+      "pricing_strategy": "Value-based (priced at 10% of the average cost of one downtime event).",
+      "primary_stream": "$1,500/month per factory floor module.",
+      "unit_economics": {
+        "acv": "$18,000",
+        "cac": "$4,500",
+        "cogs": "$3,600",
+        "gross_margin": "80%",
+        "ltv": "$90,000",
+        "ltv_cac_ratio": "20:1",
+        "payback_period": "3 Months",
+        "year_1_target": "$450,000",
+        "year_3_target": "$6.2M"
+      },
+      "upsell_path": "Enterprise dashboard and predictive supply chain integration API.",
+      "verdict": "The model is exceptionally sound. The biggest risk is the length of the B2B sales cycle, not the margin."
+    },
+    "strategic_risk": {
+      "caution_flags": {
+        "analyst_friction": "Navigating legacy IT security protocols in older factories.",
+        "founder_fear": "Difficulty hiring specialized AI talent.",
+        "primary_bottleneck": "Sensor hardware manufacturing lead times."
+      },
+      "founder_market_fit": "Founder is highly qualified. Largest gap is a lack of experience in scaling a high-velocity B2B sales team.",
+      "kill_criteria": [
+        "Hardware failure rate exceeds 5% in first 90 days.",
+        "Failure to secure a second pilot within 4 months.",
+        "LTV:CAC ratio drops below 3x."
+      ]
+    },
+    "submission_summary": {
+      "analyst_first_read": "The core opportunity lies in the democratization of high-end predictive maintenance for mid-market players who lack massive data science teams. The primary risk is the hardware installation friction. Can the team achieve a 'plug-and-play' sensor experience that requires zero IT integration?",
+      "elevator_pitch": "We use proprietary acoustic sensors and LLM-driven analysis to predict factory floor equipment failure 48 hours before it happens, saving mid-sized manufacturers $50k per downtime event.",
+      "stage_at_entry": "Early Revenue"
+    },
+    "venture_verdict": {
+      "scoring_matrix": [
+        {
+          "dimension": "Market Opportunity",
+          "notes": "TAM is expanding as reshoring efforts increase local manufacturing.",
+          "raw_score": 9,
+          "weight": "20%",
+          "weighted_score": 1.8
+        },
+        {
+          "dimension": "Competitive Moat",
+          "notes": "Proprietary acoustic dataset provides a growing data advantage.",
+          "raw_score": 7,
+          "weight": "20%",
+          "weighted_score": 1.4
+        },
+        {
+          "dimension": "Revenue Model Strength",
+          "notes": "SaaS model with high switching costs once integrated.",
+          "raw_score": 8,
+          "weight": "15%",
+          "weighted_score": 1.2
+        },
+        {
+          "dimension": "Founder–Market Fit",
+          "notes": "CEO is a former Plant Manager with 20 years in the sector.",
+          "raw_score": 10,
+          "weight": "15%",
+          "weighted_score": 1.5
+        },
+        {
+          "dimension": "Execution Feasibility",
+          "notes": "Hardware supply chain remains a moderate execution risk.",
+          "raw_score": 6,
+          "weight": "15%",
+          "weighted_score": 0.9
+        },
+        {
+          "dimension": "Trend Alignment",
+          "notes": "Strong alignment with Industry 4.0 and AI-driven automation.",
+          "raw_score": 9,
+          "weight": "10%",
+          "weighted_score": 0.9
+        },
+        {
+          "dimension": "Pivot Potential",
+          "notes": "Tech can easily pivot to HVAC or Marine engine monitoring.",
+          "raw_score": 10,
+          "weight": "5%",
+          "weighted_score": 0.5
+        }
+      ],
+      "status": "GO",
+      "verdict_rationale": "High market demand for operational efficiency in a high-inflation environment. The unit economics are robust due to the high cost of failure in the target segment. Scoring is bolstered by strong Founder-Market fit and clear arbitrage via AI-driven acoustic analysis.",
+      "viability_score": 8.2
+    }
+  }
+]
