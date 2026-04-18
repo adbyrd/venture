@@ -1,0 +1,26 @@
+/*
+ * GLOBAL CSS - VENTURE
+ * Handles payment initialization and verification
+ * Path: /public/styles/global.css
+ * Version: 1.0.0]
+*/
+
+/* Target the underlying input when it is in an invalid state */
+.globalVentureInput:invalid {
+    min-height: 48px !important;
+}
+
+/* Ensure the Wix wrapper doesn't collapse the height */
+.globalVentureInput {
+    min-height: 48px;
+}
+
+input[name="first-name"]:invalid {
+  border: 2px solid blue !important;
+  background-color: lightcyan !important;
+}
+
+[name="first-name"]:invalid {
+  border: 2px solid red;
+  background-color: #fff0f0;
+}
